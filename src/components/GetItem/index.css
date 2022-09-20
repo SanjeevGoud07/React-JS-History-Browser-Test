@@ -1,0 +1,34 @@
+.list {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Button {
+  background-color: transparent;
+  border: none;
+}
+.Inside {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: start;
+  margin-left: 100px;
+  align-items: center;
+}
+.Logo {
+  height: 20px;
+  margin-right: 10px;
+}
+.Time {
+  width: 120px;
+}
+.Title {
+  font-weight: 500;
+  margin-left: 10px;
+}
+.URL {
+  color: #64748b;
+  margin-left: 10px;
+}
